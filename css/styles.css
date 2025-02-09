@@ -1,0 +1,121 @@
+html {
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+}
+
+.body-content, footer {
+    background-image: url("../images/pic1.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    background-color: #a6ae33 !important;
+}
+
+.btn {
+    border: 3px solid white;
+    background-color: #a6ae33;
+    color: white;
+    font-weight: 600;
+}
+
+.text-body-emphasis {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-size: 4rem !important;
+    font-weight: 400;
+    font-style: normal;
+    color: white !important;
+}
+
+use {
+    border: white !important;
+}
+
+.form-container {
+    max-width: 1500px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 450px;
+}
+
+.form-container .btn {
+    padding-top: 5px;
+    background-color: #a6ae33;
+    font-size: medium;
+    color: white;
+    border: 1px solid white !important;
+    border-radius: 5px;
+}
+
+.form-title {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-size: 3rem !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    padding-left: 5rem;
+}
+
+.about-content h1 {
+    color: black !important;
+}
+
+.img-border {
+    padding: 0;
+    border: 5px solid white;
+    border-radius: 48%;
+}
+
+.lead {
+    font-size: large;
+}
+
+.edu-title, .pub-title, .course-title {
+    color: black !important;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center !important;
+}
+
+.card {
+    background-position: center; 
+    background-size: cover; 
+    background-color: rgba(0 0 0 0.1) !important;
+}
+
+.pub-content h3 {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.publication_img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
